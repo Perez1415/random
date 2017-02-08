@@ -9,7 +9,7 @@ function createRandomScene() {
     }else{
         createThirdScene()
     
-    
+    }
 }
 
 var namespace = "http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@ makeCircle(55, 31, 2,"white", 1.0)
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
- makeCircle(105, 60, 33, "lightblue", 0.5)
+ makeCircle(105, 60, 33, "gray", 0.5)
 
 makeCircle(65, 79, 2,"white", 1.0)
 
