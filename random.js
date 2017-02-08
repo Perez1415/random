@@ -1,3 +1,17 @@
+function createRandomScene() {
+    var number = Math.random()
+
+    if(number < 0.33){
+        createFirstScene()
+    }else if(number < 0.67){
+    createSecondScene()
+
+    }else{
+        createThirdScene()
+    
+    
+}
+
 var namespace = "http://www.w3.org/2000/svg"
 
 
@@ -5,7 +19,20 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
-    
+
+
+makeCircle(105, 60, 33, "Blue", 1.0)
+
+makeCircle(45, 95, 2,"white", 1.0)
+
+makeCircle(35, 10, 2,"white", 1.0)
+
+makeCircle(185, 31, 2,"white", 1.0)
+
+makeCircle(195, 79, 2,"white", 1.0)
+
+makeCircle(55, 31, 2,"white", 1.0)
+
 }
 
 
@@ -13,7 +40,16 @@ function createFirstScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-    
+ makeCircle(105, 60, 33, "lightblue", 0.5)
+
+makeCircle(65, 79, 2,"white", 1.0)
+
+makeCircle(155, 30, 9,"lightgray", 1.0)
+
+makeCircle(25, 60, 2,"white", 1.0)
+
+makeCircle(165, 90, 2,"white", 1.0)
+   
 }
 
 
@@ -22,32 +58,16 @@ function createSecondScene() {
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
     
+makeCircle(180, 57, 2,"white", 1.0)
+
+makeCircle(105, 15, 2,"white", 1.0)
+
+makeCircle(105, 97, 2,"white", 1.0)
+
+makeCircle(140, 93, 2,"white", 1.0)
+
+makePolyline("90,32 90,60 110,50 110,90", "red", 3, 1.0)
 }
-
-
-
-
-
-// FILL IN THIS FUNCTION!
-// This function is called whenever you press the "Go!" button.
-function createRandomScene() {
-    // Generate a random number between 0 and 1, and store it in a variable.
-    
-    // If the number is less than 0.33, call the function to create your first scene.
-    
-    
-    
-    // Else, if the number is less than 0.67, call the function to create your second scene.
-    
-    
-    
-    // Else, call the function to create your third scene.
-    
-    
-    
-}
-
-
 
 // DO NOT EDIT ANYTHING BELOW THIS LINE!
 // These are the functions you should call to
