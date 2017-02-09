@@ -49,6 +49,8 @@ makeCircle(155, 30, 9,"lightgray", 1.0)
 makeCircle(25, 60, 2,"white", 1.0)
 
 makeCircle(165, 90, 2,"white", 1.0)
+makeEllipse(105, 60, 50, 20, "green", 0.15)
+
    
 }
 
