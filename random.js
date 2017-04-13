@@ -32,7 +32,7 @@ makeCircle(185, 31, 2,"white", 1.0)
 makeCircle(195, 79, 2,"white", 1.0)
 
 makeCircle(55, 31, 2,"white", 1.0)
-
+makeEllipse(105,60, 50,20,"green", 0.15) 
 }
 
 
